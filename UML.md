@@ -32,7 +32,7 @@ class Time
    + static float convert_to_hours (int d, int h, int m, int s);
    + static float convert_to_days (int d, int h, int m, int s);
 
-   + std::string show_time();   
+   + std::string to_string();   
 }
 @enduml
 ```
