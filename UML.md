@@ -37,4 +37,4 @@ class Time
 @enduml
 ```
 
-![](UML.png)
+![](UML_diagram.png)
