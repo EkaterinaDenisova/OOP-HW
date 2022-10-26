@@ -4,19 +4,21 @@
 @startuml
 class Time 
 {
-  - int all_time;
   - int days;
   - int hours;
   - int minutes;
   - int seconds;
 
 
-   + Time();                            
-   + void convert_s_to_std ();                  
-   + void set_time (int t);
+   + Time();
+   + Time(int d, int h, int m, int s);                            
+   + void set_time_in_seconds (int t);
    + void set_time (int d, int h, int m, int s);
+   + void set_seconds(int s);
+   + void set_minutes(int m);
+   + void set_hours(int h);
+   + void set_days(int d);
 
-   + int get_all_time() const;
    + int get_seconds() const;
    + int get_minutes() const;
    + int get_hours() const;
@@ -35,4 +37,4 @@ class Time
 @enduml
 ```
 
-![](UML_diagram.png)
+![](UML.png)
